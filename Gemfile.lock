@@ -4,8 +4,8 @@ GEM
   specs:
     json (1.0.0)
     nokogiri (1.5.4)
-    privvy (0.1.0)
-      json (= 1.0.0)
+    privvy (0.1.1)
+      json
       nokogiri (= 1.5.4)
       redis-rack-cache (= 1.1)
     rack (2.0.1)
@@ -22,6 +22,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  json (= 1.0.0)
   privvy!
 
 BUNDLED WITH
