@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   remote: https://packagecloud.io/darscan/reaper/
   specs:
-    json (1.0.0)
+    json (1.5.5)
     nokogiri (1.5.4)
     privvy (0.1.1)
       json
@@ -22,7 +22,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  json (= 1.0.0)
+  json (= 1.5.5)
   privvy!
 
 BUNDLED WITH
