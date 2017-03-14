@@ -1,0 +1,41 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-RUBY-JSON-20000:
+    - '* > privvy@0.1.1':
+        reason: None given
+        expires: '2017-04-13T17:55:12.156Z'
+  SNYK-RUBY-JSON-20060:
+    - '* > privvy@0.1.1':
+        reason: None given
+        expires: '2017-04-13T17:55:12.156Z'
+  SNYK-RUBY-JSON-20209:
+    - '* > privvy@0.1.1':
+        reason: None given
+        expires: '2017-04-13T17:55:12.156Z'
+  SNYK-RUBY-NOKOGIRI-20127:
+    - '* > privvy@0.1.1':
+        reason: None given
+        expires: '2017-04-13T17:55:12.156Z'
+  SNYK-RUBY-NOKOGIRI-20129:
+    - '* > privvy@0.1.1':
+        reason: None given
+        expires: '2017-04-13T17:55:12.156Z'
+  SNYK-RUBY-NOKOGIRI-20157:
+    - '* > privvy@0.1.1':
+        reason: None given
+        expires: '2017-04-13T17:55:12.157Z'
+  SNYK-RUBY-NOKOGIRI-20214:
+    - '* > privvy@0.1.1':
+        reason: None given
+        expires: '2017-04-13T17:55:12.157Z'
+  SNYK-RUBY-NOKOGIRI-20299:
+    - '* > privvy@0.1.1':
+        reason: None given
+        expires: '2017-04-13T17:55:12.157Z'
+  SNYK-RUBY-RACKCACHE-20031:
+    - '* > privvy@0.1.1':
+        reason: None given
+        expires: '2017-04-13T17:55:12.157Z'
+patch: {}
