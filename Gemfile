@@ -5,4 +5,4 @@ source "https://packagecloud.io/darscan/reaper" do
   gem "privvy"
 end
 
-gem "json", "1.0.0"
+gem "json", "1.5.5"
